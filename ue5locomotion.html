@@ -1,23 +1,27 @@
 
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Advanced Character Locomotion System</title>
+    <title>UE5 Locomotion System</title>
 
-    <link rel="stylesheet" href="unreal.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <!-- BACKGROUND -->
+
+    <!-- Background -->
 
     <div class="grid"></div>
+
     <div class="blueprint-line"></div>
 
     <div class="point point1"></div>
@@ -30,7 +34,7 @@
     <div class="marker marker4">+</div>
 
 
-    <!-- HEADER -->
+    <!-- Header -->
 
     <header class="header">
 
@@ -38,184 +42,222 @@
             HK
         </a>
 
+
         <nav class="nav">
 
-            <a href="index.html">HOME</a>
-            <a href="about.html">ABOUT</a>
-            <a href="index.html#projects">PROJECTS</a>
-            <a href="contact.html">CONTACT</a>
+            <a href="index.html">
+                HOME
+            </a>
+
+            <a href="about.html">
+                ABOUT
+            </a>
+
+            <a href="index.html#projects">
+                PROJECTS
+            </a>
+
+            <a href="contact.html">
+                CONTACT
+            </a>
 
         </nav>
 
     </header>
 
 
-    <!-- PROJECT HERO -->
 
-    <main>
+    <!-- Project -->
 
-        <section class="project-hero">
+    <main class="about-page">
 
-            <div class="project-header">
+
+        <!-- Project Header -->
+
+        <section class="profile-section">
+
+
+            <div class="profile-text">
 
                 <p class="tag">
                     // UNREAL ENGINE PROJECT_02
                 </p>
 
+
                 <h1>
-                    UE5
+                    UE5 LOCOMOTION SYSTEM
                 </h1>
 
-                <p class="project-subtitle">
+
+                <p class="subtitle">
                     ADVANCED CHARACTER LOCOMOTION SYSTEM
                 </p>
 
-                <p class="project-intro">
+
+                <p class="description">
 
                     An Unreal Engine 5.7 locomotion system focused on
                     realistic, weighty character movement and seamless
-                    transitions between third-person and first-person perspectives.
+                    transitions between first-person and third-person
+                    perspectives.
 
                 </p>
 
-                <div class="project-buttons">
 
-                    <a href="#features" class="btn">
-                        EXPLORE SYSTEM ↓
-                    </a>
+                <br>
 
-                    <a href="index.html#projects" class="btn secondary">
-                        ← BACK TO PROJECTS
-                    </a>
+
+                <a href="#features" class="btn">
+                    EXPLORE SYSTEM ↓
+                </a>
+
+
+            </div>
+
+
+
+            <!-- Main Project Image -->
+
+            <div class="photo1">
+
+                <div class="photo-frame">
+
+                    <div class="corner top-left"></div>
+                    <div class="corner top-right"></div>
+                    <div class="corner bottom-left"></div>
+                    <div class="corner bottom-right"></div>
+
+
+                    <img
+                        src="photos/ue5.png"
+                        class="profile"
+                        alt="Unreal Engine project"
+                    >
 
                 </div>
 
-            </div>
 
-
-            <!-- HERO IMAGE -->
-
-            <div class="hero-project-image">
-
-                <div class="corner top-left"></div>
-                <div class="corner top-right"></div>
-                <div class="corner bottom-left"></div>
-                <div class="corner bottom-right"></div>
-
-                <img
-                    src="images/unreal/project-main.png"
-                    alt="RE:SHIFT Unreal Engine project"
-                >
-
-            </div>
-
-        </section>
-
-
-
-        <!-- PROJECT METADATA -->
-
-        <section class="metadata">
-
-            <div class="meta-item">
-
-                <span>ENGINE</span>
-                <strong>UNREAL ENGINE 5.7</strong>
-
-            </div>
-
-            <div class="meta-item">
-
-                <span>TYPE</span>
-                <strong>CHARACTER SYSTEM</strong>
-
-            </div>
-
-            <div class="meta-item">
-
-                <span>FOCUS</span>
-                <strong>ANIMATION / LOCOMOTION</strong>
-
-            </div>
-
-            <div class="meta-item">
-
-                <span>CAMERA</span>
-                <strong>FPS ↔ TPS</strong>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- OVERVIEW -->
-
-        <section class="overview">
-
-            <p class="section-tag">
-                // SYSTEM_OVERVIEW
-            </p>
-
-            <h2>
-                BUILT FOR<br>
-                WEIGHTY MOVEMENT
-            </h2>
-
-            <p class="overview-text">
-
-                RE:SHIFT is a character locomotion system designed to
-                combine responsive controls with grounded and believable
-                animation. The system uses animation warping, inverse
-                kinematics, aim offsets, and character state logic to create
-                movement that feels connected to the character rather than
-                simply moving a model through the environment.
-
-            </p>
-
-        </section>
-
-
-
-        <!-- FPS TPS -->
-
-        <section class="perspective">
-
-            <div class="perspective-image">
-
-                <img
-                    src="images/unreal/fps-tps.png"
-                    alt="FPS and TPS system"
-                >
-
-            </div>
-
-
-            <div class="perspective-info">
-
-                <p class="section-tag">
-                    // PERSPECTIVE_SYSTEM
+                <p class="photo-label">
+                    UNREAL_ENGINE_5.7
                 </p>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Project Overview -->
+
+        <section class="focus-section">
+
+
+            <div class="focus-box">
 
                 <h2>
-                    FPS ↔ TPS
+                    PROJECT OVERVIEW
                 </h2>
 
-                <p>
-
-                    The system supports switching between first-person and
-                    third-person perspectives while maintaining consistent
-                    character movement and animation behaviour.
-
-                </p>
 
                 <p>
 
-                    Camera logic, character rotation, animation states and
-                    locomotion behaviour are synchronized to provide a
-                    seamless transition between perspectives.
+                    RE:SHIFT is a character locomotion system developed
+                    in Unreal Engine 5.7, combining animation systems,
+                    procedural movement and camera logic to create
+                    grounded and responsive character movement.
 
                 </p>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- FPS / TPS -->
+
+        <section class="exploration">
+
+
+            <p class="tag">
+                // PERSPECTIVE SYSTEM
+            </p>
+
+
+            <h2>
+                FPS ↔ TPS
+            </h2>
+
+
+            <p class="exploration-text">
+
+                The character can seamlessly transition between
+                first-person and third-person perspectives while
+                maintaining consistent locomotion and animation behaviour.
+
+            </p>
+
+
+            <div class="exploration-grid">
+
+
+                <div class="exploration-item">
+
+                    <span>
+                        01
+                    </span>
+
+                    <p>
+
+                        <strong>FIRST PERSON</strong><br>
+
+                        Camera-focused movement designed for
+                        immersive first-person gameplay.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="exploration-item">
+
+                    <span>
+                        02
+                    </span>
+
+                    <p>
+
+                        <strong>THIRD PERSON</strong><br>
+
+                        Full-body character movement with
+                        directional animation and procedural systems.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="exploration-item">
+
+                    <span>
+                        03
+                    </span>
+
+                    <p>
+
+                        <strong>SEAMLESS TRANSITION</strong><br>
+
+                        Camera and character behaviour adapt
+                        when switching between perspectives.
+
+                    </p>
+
+                </div>
+
 
             </div>
 
@@ -223,25 +265,20 @@
 
 
 
-        <!-- FEATURES -->
+        <!-- Features -->
 
-        <section class="features" id="features">
+        <section class="skills" id="features">
 
-            <p class="section-tag">
-                // CORE_FEATURES
-            </p>
 
             <h2>
-                SYSTEM COMPONENTS
+                CORE SYSTEMS
             </h2>
 
 
-            <div class="feature-grid">
+            <div class="skills-grid">
 
 
-                <div class="feature-box">
-
-                    <span>01</span>
+                <div class="skill-box">
 
                     <h3>
                         8-WAY LOCOMOTION
@@ -249,37 +286,17 @@
 
                     <p>
 
-                        Full directional movement with smooth animation
-                        blending across forward, backward, strafing and
-                        diagonal movement.
+                        Full directional movement including
+                        forward, backward, strafing and diagonal
+                        movement with smooth animation blending.
 
                     </p>
 
                 </div>
 
 
-                <div class="feature-box">
 
-                    <span>02</span>
-
-                    <h3>
-                        STRIDE WARPING
-                    </h3>
-
-                    <p>
-
-                        Dynamic animation adjustment that allows movement
-                        animations to adapt to different speeds and
-                        distances.
-
-                    </p>
-
-                </div>
-
-
-                <div class="feature-box">
-
-                    <span>03</span>
+                <div class="skill-box">
 
                     <h3>
                         ORIENTATION WARPING
@@ -287,35 +304,50 @@
 
                     <p>
 
-                        Adjusts animation orientation to match the desired
-                        movement direction while maintaining natural motion.
+                        Dynamically adjusts animation orientation
+                        to match the character's movement direction.
 
                     </p>
 
                 </div>
 
 
-                <div class="feature-box">
 
-                    <span>04</span>
+                <div class="skill-box">
 
                     <h3>
-                        FOOT PLACEMENT
+                        STRIDE WARPING
                     </h3>
 
                     <p>
 
-                        Advanced IK-based foot placement keeps the character's
-                        feet aligned with uneven terrain.
+                        Adapts animation stride to movement speed
+                        and distance for more natural locomotion.
 
                     </p>
 
                 </div>
 
 
-                <div class="feature-box">
 
-                    <span>05</span>
+                <div class="skill-box">
+
+                    <h3>
+                        FOOT PLACEMENT + IK
+                    </h3>
+
+                    <p>
+
+                        Advanced inverse kinematics keeps the
+                        character's feet aligned with uneven terrain.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-box">
 
                     <h3>
                         CHARACTER LEAN
@@ -323,17 +355,16 @@
 
                     <p>
 
-                        Subtle procedural leaning adds weight and physicality
-                        to directional movement.
+                        Adds subtle body leaning during movement
+                        to improve weight and physicality.
 
                     </p>
 
                 </div>
 
 
-                <div class="feature-box">
 
-                    <span>06</span>
+                <div class="skill-box">
 
                     <h3>
                         AIM OFFSET
@@ -341,8 +372,98 @@
 
                     <p>
 
-                        Upper-body aiming operates independently from the
-                        lower-body locomotion system.
+                        Allows the upper body to aim independently
+                        from the lower-body locomotion system.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Technical Focus -->
+
+        <section class="exploration">
+
+
+            <p class="tag">
+                // TECHNICAL_FOCUS
+            </p>
+
+
+            <h2>
+                ANIMATION SYSTEM
+            </h2>
+
+
+            <p class="exploration-text">
+
+                The project combines Unreal Engine animation systems,
+                Animation Blueprints, IK, animation warping and
+                character state logic into a single locomotion framework.
+
+            </p>
+
+
+            <div class="exploration-grid">
+
+
+                <div class="exploration-item">
+
+                    <span>
+                        01
+                    </span>
+
+                    <p>
+
+                        <strong>ANIMATION BLUEPRINTS</strong><br>
+
+                        Movement states and animation behaviour are
+                        controlled through an Animation Blueprint.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="exploration-item">
+
+                    <span>
+                        02
+                    </span>
+
+                    <p>
+
+                        <strong>INVERSE KINEMATICS</strong><br>
+
+                        Procedural IK is used for realistic foot
+                        placement and terrain adaptation.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="exploration-item">
+
+                    <span>
+                        03
+                    </span>
+
+                    <p>
+
+                        <strong>ANIMATION WARPING</strong><br>
+
+                        Orientation and stride warping allow animations
+                        to dynamically adapt to movement.
 
                     </p>
 
@@ -355,165 +476,69 @@
 
 
 
-        <!-- TECHNICAL SECTION -->
+        <!-- Gallery -->
 
-        <section class="technical">
+        <section class="focus-section">
 
-            <div class="technical-header">
 
-                <p class="section-tag">
-                    // TECHNICAL_IMPLEMENTATION
-                </p>
+            <div class="focus-box">
 
                 <h2>
-                    ANIMATION<br>
-                    PIPELINE
+                    SYSTEM IN ACTION
                 </h2>
 
-            </div>
+
+                <div class="interest-grid">
 
 
-            <div class="technical-content">
+                    <div class="interest-box">
 
-                <div class="technical-item">
-
-                    <span>01</span>
-
-                    <div>
-
-                        <h3>
-                            ANIMATION BLUEPRINT
-                        </h3>
-
-                        <p>
-
-                            Character movement states are processed through
-                            an animation blueprint that controls locomotion,
-                            aiming, leaning and perspective-specific behaviour.
-
-                        </p>
+                        <img
+                            src="images/unreal/gameplay1.png"
+                            style="width:100%;"
+                            alt="gameplay"
+                        >
 
                     </div>
 
-                </div>
 
+                    <div class="interest-box">
 
-                <div class="technical-item">
-
-                    <span>02</span>
-
-                    <div>
-
-                        <h3>
-                            IK & FOOT PLACEMENT
-                        </h3>
-
-                        <p>
-
-                            Procedural inverse kinematics are used to maintain
-                            stable foot contact with different surfaces.
-
-                        </p>
+                        <img
+                            src="images/unreal/gameplay2.png"
+                            style="width:100%;"
+                            alt="gameplay"
+                        >
 
                     </div>
 
-                </div>
 
+                    <div class="interest-box">
 
-                <div class="technical-item">
-
-                    <span>03</span>
-
-                    <div>
-
-                        <h3>
-                            ANIMATION WARPING
-                        </h3>
-
-                        <p>
-
-                            Orientation and stride warping dynamically modify
-                            animations according to movement direction and speed.
-
-                        </p>
+                        <img
+                            src="images/unreal/gameplay3.png"
+                            style="width:100%;"
+                            alt="gameplay"
+                        >
 
                     </div>
 
-                </div>
 
+                    <div class="interest-box">
 
-                <div class="technical-item">
-
-                    <span>04</span>
-
-                    <div>
-
-                        <h3>
-                            CAMERA STATES
-                        </h3>
-
-                        <p>
-
-                            First-person and third-person camera states are
-                            integrated with the character's locomotion logic.
-
-                        </p>
+                        <img
+                            src="images/unreal/gameplay4.png"
+                            style="width:100%;"
+                            alt="gameplay"
+                        >
 
                     </div>
+
 
                 </div>
 
             </div>
 
-        </section>
-
-
-
-        <!-- GALLERY -->
-
-        <section class="gallery">
-
-            <p class="section-tag">
-                // PROJECT_MEDIA
-            </p>
-
-            <h2>
-                SYSTEM IN ACTION
-            </h2>
-
-
-            <div class="gallery-grid">
-
-                <div class="gallery-item large">
-
-                    <img
-                        src="images/unreal/gameplay1.png"
-                        alt="Gameplay"
-                    >
-
-                </div>
-
-
-                <div class="gallery-item">
-
-                    <img
-                        src="images/unreal/gameplay2.png"
-                        alt="Third person gameplay"
-                    >
-
-                </div>
-
-
-                <div class="gallery-item">
-
-                    <img
-                        src="images/unreal/gameplay3.png"
-                        alt="First person gameplay"
-                    >
-
-                </div>
-
-            </div>
 
         </section>
 
@@ -522,11 +547,13 @@
 
 
 
-    <!-- FOOTER -->
+    <!-- Footer -->
 
     <footer class="footer">
 
+
         <div class="footer-main">
+
 
             <div class="footer-brand">
 
@@ -542,13 +569,17 @@
             </div>
 
 
+
             <div class="footer-links">
 
                 <a href="index.html">
                     HOME
                 </a>
 
-                <a href="https://github.com/l3nna" target="_blank">
+                <a
+                    href="https://github.com/l3nna"
+                    target="_blank"
+                >
                     GITHUB
                 </a>
 
@@ -558,7 +589,9 @@
 
             </div>
 
+
         </div>
+
 
 
         <div class="footer-meta">
@@ -567,11 +600,13 @@
                 UNREAL ENGINE // ANIMATION // LOCOMOTION
             </span>
 
+
             <span>
                 PROJECT_02 // 2026
             </span>
 
         </div>
+
 
     </footer>
 
