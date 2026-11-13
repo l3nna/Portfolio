@@ -1,212 +1,255 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Helena Kojić // Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects // Helena Kojić</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Background effects -->
+    <!-- Background Effects -->
+
     <div class="grid"></div>
     <div class="blueprint-line"></div>
 
     <div class="point point1"></div>
     <div class="point point2"></div>
     <div class="point point3"></div>
+
     <div class="marker marker1">+</div>
     <div class="marker marker2">+</div>
     <div class="marker marker3">+</div>
     <div class="marker marker4">+</div>
 
 
+    <!-- Header & Navigation -->
+
     <header class="header">
 
-        <div class="logo">
+        <a
+            class="logo"
+            href="index.html"
+            style="text-decoration: none; color: inherit;"
+        >
             HK
-        </div>
+        </a>
 
         <nav class="nav">
+            <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
-            <a href="#projects">PROJECTS</a>
+            <a href="index.html#projects">PROJECTS</a>
             <a href="contact.html">CONTACT</a>
         </nav>
 
     </header>
 
 
-    <main class="hero">
+    <main>
 
-        <section class="hero-left">
+        <!-- Hero Section -->
 
-            <p class="tag">// ENGINEERING PORTFOLIO</p>
+        <section class="hero">
 
-            <h1>
-                HELENA KOJIĆ
-            </h1>
+            <div class="hero-left">
 
-            <p class="subtitle">
-                ELECTRICAL ENGINEERING STUDENT
-            </p>
+                <p class="tag">
+                    // ENGINEERING PORTFOLIO
+                </p>
 
-            <p class="about">
-                I design and build hardware-software systems including robotics,
-                embedded devices, simulations, and experimental engineering projects.
-                My work combines electronics, programming, and real-world systems.
-            </p>
+                <h1>
+                    HELENA<br>
+                    KOJIĆ
+                </h1>
 
-            <a href="#projects" class="btn">
-                VIEW PROJECTS →
-            </a>
+                <p class="subtitle">
+                    HARDWARE / SOFTWARE / ROBOTICS
+                </p>
 
-        </section>
+                <p class="about">
+                    Electrical engineering student exploring robotics,
+                    embedded systems, computer systems and interactive
+                    software through hands-on projects.
+                </p>
 
-
-        <section class="hero-right">
-
-            <div class="photo-frame">
-
-                <div class="corner top-left"></div>
-                <div class="corner top-right"></div>
-                <div class="corner bottom-left"></div>
-                <div class="corner bottom-right"></div>
-
-                <img src="photos/Lena.jpg" class="profile">
+                <a class="btn" href="#projects">
+                    VIEW PROJECTS
+                </a>
 
             </div>
 
-            <p class="photo-label">
-                ENGINEER_PROFILE_01
-            </p>
-
         </section>
 
-        
+
+        <!-- Project Showcase -->
+
+        <section class="projects" id="projects">
+
+            <h2>PROJECT SHOWCASE</h2>
+
+
+            <!-- Project 01: Robot Car -->
+
+            <article class="project">
+
+                <div class="project-image">
+
+                    <img
+                        src="photos/kucicar.PNG"
+                        alt="Technical line illustration of a robot car"
+                    >
+
+                </div>
+
+
+                <div class="project-info">
+
+                    <span class="project-category">
+                        01 / ROBOTICS & EMBEDDED SYSTEMS
+                    </span>
+
+                    <h3>Robot Car</h3>
+
+                    <p>
+                        A custom-built robotic vehicle developed
+                        to explore embedded systems, electronics,
+                        and hardware-software integration.
+                    </p>
+
+                    <p>
+                        The project combines Raspberry Pi control,
+                        motor drivers, sensor integration, and
+                        mechanical assembly, with a focus on
+                        reliable communication and practical debugging.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Raspberry Pi</span>
+                        <span>Python</span>
+                        <span>Electronics</span>
+                        <span>Motor Control</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 02: UE5 Locomotion System -->
+
+            <article class="project">
+
+                <div class="project-image">
+
+                    <img
+                        src="photos/ue5proj.png"
+                        alt="Unreal Engine locomotion project"
+                    >
+
+                </div>
+
+
+                <div class="project-info">
+
+                    <span class="project-category">
+                        02 / GAME DEVELOPMENT & ANIMATION
+                    </span>
+
+                    <h3>UE5 Locomotion System</h3>
+
+                    <p>
+                        A character movement system developed in
+                        Unreal Engine 5.7, combining directional
+                        locomotion, procedural animation and
+                        first-person / third-person camera logic.
+                    </p>
+
+                    <p>
+                        Includes orientation and stride warping,
+                        inverse kinematics, character lean and
+                        aim offsets.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Unreal Engine</span>
+                        <span>Blueprints</span>
+                        <span>Animation</span>
+                    </div>
+
+                    <p>
+                        <a href="ue5-locomotion.html" class="btn">
+                            VIEW PROJECT
+                        </a>
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
 
     </main>
-<section class="projects" id="projects">
 
-    <h2>PROJECT SHOWCASE</h2>
 
-    <div class="projects-container">
+    <!-- Footer -->
 
-        
-            
-                        
+    <footer class="footer">
 
-<section class="projects" id="projects">
+        <div class="footer-main">
 
-    <h2>PROJECT SHOWCASE</h2>
+            <div class="footer-brand">
 
-    <div class="project">
+                <p>
+                    HELENA KOJIĆ<br>
+                    Electrical Engineering Student<br>
+                    Hardware / Software / Robotics
+                </p>
 
-        <div class="project-image">
-            <img
-                src="photos/kucicar.PNG"
-                alt="Robot Car engineering illustration"
-            >
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    HOME
+                </a>
+
+                <a
+                    href="https://github.com/l3nna"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GITHUB
+                </a>
+
+                <a href="contact.html">
+                    CONTACT
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="project-info">
 
-            <span class="project-category">
-                01 / ROBOTICS & EMBEDDED SYSTEMS
+        <div class="footer-meta">
+
+            <span>
+                HARDWARE // SOFTWARE // ROBOTICS
             </span>
 
-            <h3>Robot Car</h3>
-
-            <p>
-                A custom-built robotic vehicle developed
-                to explore embedded systems, electronics,
-                and hardware-software integration.
-            </p>
-
-            <p>
-                The project combines Raspberry Pi control,
-                motor drivers, sensor integration, and
-                mechanical assembly. Development focuses
-                on reliable hardware communication,
-                motor control, and practical debugging.
-            </p>
-
-            <div class="project-tags">
-                <span>Raspberry Pi</span>
-                <span>Python</span>
-                <span>Electronics</span>
-                <span>Motor Control</span>
-            </div>
+            <span>
+                ENGINEERING PORTFOLIO // 2026
+            </span>
 
         </div>
 
-    </div>
+    </footer>
 
-</section>
-
-
-
-
-        <div class="project">
-            <div class="project-image">
-                <img src="photos/ue5proj.png " alt="Project 02">
-            </div>
-
-            <div class="project-info">
-                <a href="ue5locomotion.html"><h3 style="color: #fff; text-decoration: underline white;">Advanced Character Locomotion System</h3></a>
-                <p>
-                    An Unreal Engine 5.7 locomotion system featuring FPS ↔ TPS switching, 
-                    8-way movement, animation/stride warping, advanced IK, aiming, and realistic character leaning. Inspired by modern AAA survival-horror games.
-                </p>
-            </div>
-        </div>
-
-
-        
-
-    </div>
-
-</section>
-<footer class="footer">
-
-    <div class="footer-main">
-
-        <div class="footer-brand">
-
-            <p>
-                HELENA KOJIĆ<br>
-                Electrical Engineering Student<br>
-                Hardware / Software / Robotics<br>
-                hkojic50@gmail.com
-            </p>
-
-        </div>
-
-
-        <div class="footer-links">
-
-            <a href="https://github.com/l3nna" target="_blank">GITHUB</a>
-            <a href="https://www.linkedin.com/in/helena-koji%C4%87-91bb45397/" target="_blank">LINKEDIN</a>
-            <a href="mailto:hkojic50@gmail.com">EMAIL</a>
-
-        </div>
-
-    </div>
-
-
-    <div class="footer-meta">
-
-        <span>
-            HARDWARE // SOFTWARE // ROBOTICS
-        </span>
-
-        <span>
-            ENGINEERING PORTFOLIO // 2026
-        </span>
-
-    </div>
-
-
-</footer>
 </body>
+
 </html>
