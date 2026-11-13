@@ -710,8 +710,7 @@ h1 {
 }
 
 .project-image {
-    width: 450px;
-    height: 400px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
